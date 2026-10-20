@@ -2,9 +2,9 @@ import { ArrowRight } from "lucide-react"
 import { withBase } from "@/lib/paths"
 
 const bullets = [
-  "新卒より地方自治体の行政職員として従事。",
-  "デジタル庁プロジェクトでは、コンサルティングチームの一員として、PMOチームを技術面から支援。",
-  "技術的な課題や仕様を、非エンジニアの方にも分かる言葉で解説し、認識の齟齬による手戻りや遅延を解消。",
+  "行政機関（省庁）のシステム関連プロジェクトで、PMO支援とシステム開発の両方に対応できます。",
+  "技術的な課題や仕様を、非エンジニアの方にも分かる言葉で伝えられます。",
+  "技術と行政実務の両面を理解した立場から、プロジェクトの円滑な進行を支えられます。",
 ]
 
 function MoreLink({ href = "#representative" }: { href?: string }) {
@@ -82,7 +82,7 @@ export function StrengthsSection() {
                 <p className="eyebrow">STRENGTH 02</p>
                 <h3 className="mt-2 font-serif text-xl font-medium text-navy-deep">共済組合</h3>
                 <p className="mt-3 text-xs leading-[1.9] text-muted">
-                  組合員向けサービスの保守・改修を担当。ブレイングマネージャーとして、マネジメントと実装の両方を担っています。
+                  加入者の方が使いやすいデザイン・設計で、スマートフォンアプリの開発・保守・改修ができます。プロジェクト管理と実装の両面に対応できます。
                 </p>
                 <div className="mt-4">
                   <MoreLink />
@@ -103,7 +103,7 @@ export function StrengthsSection() {
                 <p className="eyebrow">STRENGTH 03</p>
                 <h3 className="mt-2 font-serif text-xl font-medium text-navy-deep">自動車・モビリティ</h3>
                 <p className="mt-3 text-xs leading-[1.9] text-muted">
-                  最大4つの小規模プロジェクトを統括。スマホアプリ・車載アプリの開発を、要件が固まる前の段階から推進しました。
+                  ユーザーに直結するスマホアプリから車載アプリまで、利便性やエンターテイメント性にあふれるアプリをデザイン・設計できます。
                 </p>
                 <div className="mt-4">
                   <MoreLink />
