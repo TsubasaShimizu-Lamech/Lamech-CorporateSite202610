@@ -27,7 +27,7 @@ export function Footer({ home = "" }: { home?: string }) {
             </dd>
             <dt>メール</dt>
             <dd>
-              <a href="mailto:t.shimizu@lamech.jp" className="hover:text-sky">t.shimizu@lamech.jp</a>
+              <a href="mailto:info@lamech.jp" className="hover:text-sky">info@lamech.jp</a>
             </dd>
           </dl>
         </div>

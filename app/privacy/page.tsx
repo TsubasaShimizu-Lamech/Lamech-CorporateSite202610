@@ -66,7 +66,7 @@ export default function PrivacyPage() {
             <br />
             〒631-0817 奈良県奈良市西大寺北町1-2-4 HSビル
             <br />
-            <a href="mailto:t.shimizu@lamech.jp" className="text-navy underline hover:text-sky">t.shimizu@lamech.jp</a>
+            <a href="mailto:info@lamech.jp" className="text-navy underline hover:text-sky">info@lamech.jp</a>
           </p>
         </section>
       </main>

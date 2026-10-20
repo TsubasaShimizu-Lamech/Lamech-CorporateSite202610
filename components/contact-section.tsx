@@ -55,11 +55,11 @@ export function ContactSection() {
             フォームまたはメールでお気軽にご連絡ください。
           </p>
           <a
-            href="mailto:t.shimizu@lamech.jp"
+            href="mailto:info@lamech.jp"
             className="mt-8 inline-flex items-center gap-3 border-b border-white/50 pb-1 text-sm hover:border-white"
           >
             <Mail size={16} aria-hidden="true" />
-            t.shimizu@lamech.jp
+            info@lamech.jp
           </a>
         </div>
 
