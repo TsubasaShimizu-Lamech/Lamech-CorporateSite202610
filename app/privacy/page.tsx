@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import { Footer } from "@/components/footer"
+import { withBase } from "@/lib/paths"
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "プライバシーポリシー | Lamech(レメク)",
@@ -38,11 +40,11 @@ export default function PrivacyPage() {
     <>
       <header className="border-b border-line">
         <div className="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
-          <a href="/" aria-label="Lamech トップへ">
+          <Link href="/" aria-label="Lamech トップへ">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/lamech-logo-new.png" alt="Lamech" width={140} height={39} className="h-8 w-auto" />
-          </a>
-          <a href="/" className="text-xs text-navy hover:text-sky">トップへ戻る</a>
+            <img src={withBase("/images/lamech-logo-new.png")} alt="Lamech" width={140} height={39} className="h-8 w-auto" />
+          </Link>
+          <Link href="/" className="text-xs text-navy hover:text-sky">トップへ戻る</Link>
         </div>
       </header>
       <main id="main" className="mx-auto max-w-3xl px-6 py-16">

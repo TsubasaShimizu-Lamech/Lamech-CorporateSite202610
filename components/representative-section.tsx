@@ -1,10 +1,11 @@
 import { ArrowRight, User } from "lucide-react"
+import { withBase } from "@/lib/paths"
 
 export function RepresentativeSection() {
   return (
     <section id="representative" className="bg-white py-20 md:py-24">
       <div className="mx-auto grid max-w-6xl items-start gap-10 px-6 lg:grid-cols-[220px_1fr_1fr] lg:gap-12">
-        {/* 写真に差し替える場合は、この div を <img src="/images/representative.jpg" ...> に置き換える */}
+        {/* 写真に差し替える場合は、この div を <img src={withBase("/images/representative.jpg")} ...> に置き換える */}
         <div
           role="img"
           aria-label="代表者写真（準備中）"

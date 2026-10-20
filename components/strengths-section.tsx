@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react"
+import { withBase } from "@/lib/paths"
 
 const bullets = [
   "新卒より地方自治体の行政職員として従事。",
@@ -37,7 +38,7 @@ export function StrengthsSection() {
           <article className="relative overflow-hidden bg-white">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/02-government-building.png"
+              src={withBase("/images/02-government-building.png")}
               alt=""
               width={507}
               height={466}
@@ -70,7 +71,7 @@ export function StrengthsSection() {
             <article className="grid bg-white sm:grid-cols-[0.9fr_1fr]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/04-workspace.png"
+                src={withBase("/images/04-workspace.png")}
                 alt=""
                 width={507}
                 height={466}
@@ -91,7 +92,7 @@ export function StrengthsSection() {
             <article className="grid bg-white sm:grid-cols-[0.9fr_1fr]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/03-mobility-car.png"
+                src={withBase("/images/03-mobility-car.png")}
                 alt=""
                 width={502}
                 height={466}

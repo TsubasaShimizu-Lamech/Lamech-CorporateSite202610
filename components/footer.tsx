@@ -1,11 +1,13 @@
+import { withBase } from "@/lib/paths"
+import Link from "next/link"
 export function Footer({ home = "" }: { home?: string }) {
   return (
     <footer id="company" className="bg-white text-ink">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-2 lg:grid-cols-[1fr_1.4fr_1.4fr_auto] lg:gap-0 lg:divide-x lg:divide-line">
         <div className="lg:pr-8">
-          <a href={`${home}#top`} aria-label="Lamech トップへ">
+          <a href={`${withBase(home)}#top`} aria-label="Lamech トップへ">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/lamech-logo-new.png" alt="Lamech" width={140} height={39} className="h-8 w-auto" />
+            <img src={withBase("/images/lamech-logo-new.png")} alt="Lamech" width={140} height={39} className="h-8 w-auto" />
           </a>
           <p className="mt-4 text-xs text-muted">ITで、現場をもっと前へ。</p>
         </div>
@@ -38,9 +40,9 @@ export function Footer({ home = "" }: { home?: string }) {
         </div>
 
         <div className="lg:pl-8">
-          <a href="/privacy/" className="text-xs text-navy hover:text-sky">
+          <Link href="/privacy/" className="text-xs text-navy hover:text-sky">
             プライバシーポリシー
-          </a>
+          </Link>
           <p className="mt-6 text-[11px] text-muted">© {new Date().getFullYear()} Lamech Inc.</p>
         </div>
       </div>

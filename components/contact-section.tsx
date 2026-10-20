@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { AlertCircle, CheckCircle, Loader2, Mail, Send } from "lucide-react"
+import Link from "next/link"
 
 const FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSf4tPkoi90mb_1HWLANxwpmENVPq_EmrTt1SlW5MO2ToC9a7A/formResponse"
@@ -124,9 +125,9 @@ export function ContactSection() {
 
               <p className="text-[11px] leading-5 text-muted">
                 送信内容は、お問い合わせへの対応の目的でのみ利用します。詳しくは
-                <a href="/privacy/" className="underline hover:text-sky">
+                <Link href="/privacy/" className="underline hover:text-sky">
                   プライバシーポリシー
-                </a>
+                </Link>
                 をご確認ください。
               </p>
 

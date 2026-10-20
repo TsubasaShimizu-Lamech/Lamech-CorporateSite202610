@@ -1,4 +1,5 @@
 import { ArrowRight, Building2, GraduationCap, Users } from "lucide-react"
+import { withBase } from "@/lib/paths"
 
 const facts = [
   { icon: Building2, label: "ORIGIN", text: "地方自治体の行政職員出身" },
@@ -14,7 +15,7 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#bcdcf7] to-[#e9f4fd]" aria-hidden="true" />
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/01-city-panorama.png"
+          src={withBase("/images/01-city-panorama.png")}
           alt=""
           width={1536}
           height={547}

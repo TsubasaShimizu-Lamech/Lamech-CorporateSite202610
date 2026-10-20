@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { Menu, X } from "lucide-react"
+import { withBase } from "@/lib/paths"
 
 const navLinks = [
   { href: "#services", label: "事業内容" },
@@ -37,7 +38,7 @@ export function Navbar() {
       <nav aria-label="メインナビゲーション" className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center" aria-label="Lamech トップへ">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/lamech-logo-new.png" alt="Lamech" width={140} height={39} className="h-8 w-auto" />
+          <img src={withBase("/images/lamech-logo-new.png")} alt="Lamech" width={140} height={39} className="h-8 w-auto" />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">

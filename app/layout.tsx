@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next"
 import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google"
 import "./globals.css"
+import { withBase } from "@/lib/paths"
 
 const sans = Noto_Sans_JP({
   subsets: ["latin"],
@@ -21,9 +22,9 @@ export const metadata: Metadata = {
   description:
     "地方自治体の行政職員として働いた経験をもとに、官公庁・自治体のITプロジェクトを、技術とマネジメントの両面から支援します。共済組合、自動車メーカーのプロジェクトにも携わっています。",
   icons: {
-    icon: "/images/favicon.ico",
-    shortcut: "/images/favicon.ico",
-    apple: "/apple-icon.png",
+    icon: withBase("/images/favicon.ico"),
+    shortcut: withBase("/images/favicon.ico"),
+    apple: withBase("/apple-icon.png"),
   },
 }
 
