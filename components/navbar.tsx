@@ -5,10 +5,10 @@ import { Menu, X } from "lucide-react"
 import { withBase } from "@/lib/paths"
 
 const navLinks = [
-  { href: "#services", label: "事業内容" },
   { href: "#strengths", label: "強み領域" },
-  { href: "#representative", label: "代表" },
-  { href: "#company", label: "会社概要" },
+  { href: "#representative", label: "代表紹介" },
+  { href: "#services", label: "事業内容" },
+  { href: "#company-info", label: "会社概要" },
 ]
 
 export function Navbar() {

@@ -1,44 +1,22 @@
-import { ArrowRight, User } from "lucide-react"
-import { withBase } from "@/lib/paths"
+import { ArrowRight } from "lucide-react"
 
 export function RepresentativeSection() {
   return (
     <section id="representative" className="bg-white py-20 md:py-24">
-      <div className="mx-auto grid max-w-6xl items-start gap-10 px-6 lg:grid-cols-[220px_1fr_1fr] lg:gap-12">
-        {/* 写真に差し替える場合は、この div を <img src={withBase("/images/representative.jpg")} ...> に置き換える */}
-        <div
-          role="img"
-          aria-label="代表者写真（準備中）"
-          className="flex aspect-[4/5] w-48 flex-col items-center justify-end bg-gradient-to-b from-[#e6ebf3] to-[#d5dde9] pb-6 text-center text-[#9aa8bf] lg:w-full"
-        >
-          <User className="h-28 w-28" strokeWidth={1} aria-hidden="true" />
-          <p className="mt-2 text-xs leading-5">
-            Photo
-            <br />
-            Coming Soon
-          </p>
-        </div>
-
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-[1fr_1.8fr] lg:gap-16">
         <div>
           <p className="eyebrow">REPRESENTATIVE</p>
           <h2 className="mt-2 font-serif text-3xl font-medium text-navy-deep">代表紹介</h2>
-          <p className="mt-6 flex flex-wrap items-baseline gap-x-4">
-            <span className="font-serif text-xl text-navy-deep">清水 翼</span>
-            <span className="text-xs text-muted">株式会社Lamech 代表取締役</span>
-          </p>
-          <p className="mt-5 text-sm leading-[2] text-ink">
-            新卒より地方自治体の行政職員として従事。
-            <br />
-            その後、システム開発会社にSEとして入社。地方自治体向けのシステムや、教育関連サービス、大手通信事業者の社内システムのプロジェクトを経験しました。
-          </p>
+          <p className="mt-8 text-xs text-muted">株式会社Lamech 代表取締役</p>
+          <p className="mt-1 font-serif text-2xl text-navy-deep">清水 翼</p>
         </div>
 
-        <div className="lg:border-l lg:border-line lg:pl-12">
-          <p className="text-xs leading-[2.1] text-ink">
-            独立後も、エンジニア・コンサルタント・PMOなど、さまざまなポジションで複数のプロジェクトに参画。とくに自治体職員の経験を活かし、行政機関（省庁）のプロジェクトでは、PMOチームを技術面から支援しました。他にも、自動車メーカーのプロジェクトでは最大4つの小規模プロジェクトを統括、共済組合事業のプロジェクトではブレイングマネージャーとして、マネジメントと実装の両方を担っています。
+        <div className="lg:border-l lg:border-line lg:pl-16">
+          <p className="text-sm leading-[2.1] text-ink">
+            新卒より地方自治体の行政職員として従事した後、システム開発会社にSEとして入社。地方自治体向けシステム、教育関連サービス、大手通信事業者の社内システムなど、幅広い領域のプロジェクトを経験しました。
           </p>
-          <p className="mt-4 text-xs leading-[2.1] text-ink">
-            研修講師としても参画し、30名規模の新人社員研修にサブ講師として携わり、受講生アンケートで全員から最高評価をいただきました。
+          <p className="mt-4 text-sm leading-[2.1] text-ink">
+            独立後は、エンジニア・コンサルタント・PMOなど複数の立場で、行政機関（省庁）、自動車メーカー、共済組合といった領域のプロジェクトに参画。行政実務への理解を活かし、技術とマネジメントの両面から、お客様のプロジェクトを支えています。研修講師として、新人エンジニアの育成にも携わっています。
           </p>
           <a
             href="#contact"

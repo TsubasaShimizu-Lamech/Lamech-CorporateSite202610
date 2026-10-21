@@ -64,7 +64,9 @@ export default function PrivacyPage() {
           <p className="mt-3 text-sm leading-[2] text-ink">
             株式会社Lamech
             <br />
-            〒631-0817 奈良県奈良市西大寺北町1-2-4 HSビル
+            〒631-0817
+            <br />
+            奈良県奈良市西大寺北町1-2-4 HSビル
             <br />
             <a href="mailto:info@lamech.jp" className="text-navy underline hover:text-sky">info@lamech.jp</a>
           </p>
