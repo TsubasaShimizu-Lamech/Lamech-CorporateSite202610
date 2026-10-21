@@ -82,7 +82,7 @@ export function StrengthsSection() {
                 <p className="eyebrow">STRENGTH 02</p>
                 <h3 className="mt-2 font-serif text-xl font-medium text-navy-deep">共済組合</h3>
                 <p className="mt-3 text-xs leading-[1.9] text-muted">
-                  加入者の方が使いやすいデザイン・設計で、スマートフォンアプリの開発・保守・改修ができます。プロジェクト管理と実装の両面に対応できます。
+                  加入者の方が使いやすい設計で、スマートフォンアプリの開発・保守・改修ができます。プロジェクト管理と実装の両面に対応できます。
                 </p>
                 <div className="mt-4">
                   <MoreLink />
@@ -103,7 +103,7 @@ export function StrengthsSection() {
                 <p className="eyebrow">STRENGTH 03</p>
                 <h3 className="mt-2 font-serif text-xl font-medium text-navy-deep">自動車・モビリティ</h3>
                 <p className="mt-3 text-xs leading-[1.9] text-muted">
-                  ユーザーに直結するスマホアプリから車載アプリまで、利便性やエンターテイメント性にあふれるアプリをデザイン・設計できます。
+                  ユーザーに直結するスマホアプリから車載アプリまで、利便性やエンターテイメント性にあふれるアプリを設計・開発できます。
                 </p>
                 <div className="mt-4">
                   <MoreLink />
